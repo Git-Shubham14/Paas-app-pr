@@ -2,6 +2,8 @@ from flask import Flask
 
 app = Flask(__name__)
 
+
+
 style = """
 <style>
     body{
@@ -9,6 +11,8 @@ style = """
         text-align:center;
         margin-top:100px;
     }
+
+
 
     .box{
         width:300px;
